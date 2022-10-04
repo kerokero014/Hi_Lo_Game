@@ -48,7 +48,7 @@ namespace unit02_hilo
                 card.getNewCard();
                 nextCard = card.cardValue;
             }
-            Console.Write("Higher or Lower: [h/l]  ");
+            Console.WriteLine("Higher or Lower: [h/l]  ");
             
             string? cardGuess = Console.ReadLine();
 
