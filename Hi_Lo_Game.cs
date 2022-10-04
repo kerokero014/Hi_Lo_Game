@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace unit02_hilo
 {
     public class Director
@@ -47,7 +50,7 @@ namespace unit02_hilo
             }
             Console.Write("Higher or Lower: [h/l]  ");
             
-            string cardGuess = Console.ReadLine();
+            string? cardGuess = Console.ReadLine();
 
             Console.WriteLine($"The next card was:{nextCard}");
             
