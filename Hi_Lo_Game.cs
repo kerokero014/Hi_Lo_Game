@@ -50,7 +50,7 @@ namespace unit02_hilo
             }
             Console.WriteLine("Higher or Lower: [h/l]  ");
             
-            string? cardGuess = Console.ReadLine();
+            string cardGuess = Console.ReadLine() ?? ""; 
 
             Console.WriteLine($"The next card was:{nextCard}");
             
