@@ -1,5 +1,5 @@
 
-namespace unit02_hilo
+namespace hilo
 {
     class Program{
         ///Begins game
